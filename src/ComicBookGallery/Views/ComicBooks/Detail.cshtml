@@ -1,18 +1,10 @@
 ﻿@{
-    Layout = null;
-
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Comic Book Detail";
 
 }
 
-<!DOCTYPE html>
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title></title>
-</head>
-<body>
-    <div>
         <h1>@ViewBag.SeriesTitle</h1>
         <h2>Issue #@ViewBag.IssueNumber</h2>
         <div>@Html.Raw(ViewBag.Description)</div>
@@ -31,6 +23,3 @@
             </div>
         }
 
-    </div>
-</body>
-</html>

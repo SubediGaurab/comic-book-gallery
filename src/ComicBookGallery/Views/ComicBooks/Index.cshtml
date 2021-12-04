@@ -9,10 +9,12 @@
     @foreach (var comicBook in Model)
     {
         <div class="col-md-3">
-            <h4>@comicBook.DisplayText</h4>
-            <img src="/Images/@comicBook.CoverImageFileName"
-                 alt="The Amazing Spider-Man #700"
-                 class="img-responsive" />
+            <h4>@Html.ActionLink(comicBook.DisplayText, "Detail", new { id = comicBook.Id })</h4>
+            <a href="@Url.Action("Detail", new { id = comicBook.Id})">
+                <img src="/Images/@comicBook.CoverImageFileName"
+                     alt="The Amazing Spider-Man #700"
+                     class="img-responsive" />
+            </a>
         </div>
     }
 

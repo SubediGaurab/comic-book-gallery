@@ -24,7 +24,8 @@ namespace ComicBookGallery.Data
                     new Artist() { Name = "Chris Eliopoulos", Role = "Letters" },
                 },
                 Favorite = false,
-                Id = 1
+                Id = 1,
+                CoverImageFileName = "the-amazing-spider-man-700.jpg"
             },
             new ComicBook()
             {
@@ -40,7 +41,8 @@ namespace ComicBookGallery.Data
                     new Artist() { Name = "Joe Caramagna", Role = "Letters" }
                 },
                 Favorite = false,
-                Id = 2
+                Id = 2,
+                CoverImageFileName = "the-amazing-spider-man-657.jpg"
             },
             new ComicBook()
             {
@@ -55,7 +57,8 @@ namespace ComicBookGallery.Data
                     new Artist() { Name = "Jeff Smith", Role = "Letters" }
                 },
                 Favorite = false,
-                Id = 3
+                Id = 3,
+                CoverImageFileName = "bone-50.jpg"
             }
         };
 

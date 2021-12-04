@@ -22,6 +22,6 @@ namespace ComicBookGallery.Models
             }
         }
 
-        public string CoverImageFileName { get; } = "the-amazing-spider-man-700.jpg";
+        public string CoverImageFileName { get; set; }
     }
 }

@@ -20,6 +20,7 @@ namespace ComicBookGallery.Controllers
 
         public ActionResult Detail(int? id) // this is the change more xxnge
             // hey I have added some more changes
+            // these are final changes by the gaurab branch
         {
             if (id == null)
             {

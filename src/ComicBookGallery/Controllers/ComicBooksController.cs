@@ -19,6 +19,7 @@ namespace ComicBookGallery.Controllers
         }
 
         public ActionResult Detail(int? id) // this is the change more xxnge
+            // hey I have added some more changes
         {
             if (id == null)
             {
